@@ -1,0 +1,28 @@
+# Ignore everything that shouldn't be in the image
+
+# Git & metadata
+.git
+.gitignore
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.tox/
+*.egg-info/
+
+# Environment
+.env.*
+*.db
+*.sqlite3
+
+# IDE/Editor stuff
+.vscode/
+.idea/
+.DS_Store
+
+# Local volumes
+pgdata/
+logs/

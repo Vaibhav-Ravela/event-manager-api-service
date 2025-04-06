@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+*.pid
+
+# Unit test artifacts
+htmlcov/
+coverage.xml
+*.cover
+.cache/
+.pytest_cache/
+.tox/
+
+# Local db/storage
+*.db
+*.sqlite3
+pgdata/
+
+# Logs
+logs/
+*.log

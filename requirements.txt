@@ -1,0 +1,4 @@
+fastAPI
+uvicorn
+psycopg2-binary
+dotenv
