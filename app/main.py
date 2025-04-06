@@ -35,4 +35,4 @@ app.include_router(router)
 
 @app.get("/")
 def read_root():
-    return {"event_manager_api_service": "Hi Chinmai 😏❤️"}
+    return {"event_manager_api_service": "App is Running"}
